@@ -16,7 +16,7 @@ module.exports = {
   },
   output: {
     filename: '[name].bundle.js',
-    path: path.resolve(__dirname, './blog')
+    path: path.resolve(__dirname, 'blog')
   },
   module: {
      rules: [
@@ -29,8 +29,7 @@ module.exports = {
          })
        },
        { test:/bootstrap-sass[\/\\]assets[\/\\]javascripts[\/\\]/, use: 'imports-loader?jQuery=jquery,$=jquery' },
-       { test: /\.(woff2?|svg)$/, use: 'url-loader?limit=10000&name=/fonts/[name].[ext]' },
-       { test: /\.(ttf|eot)$/, use: 'file-loader?name=fonts/[name].[ext]' },
+       { test: /\.(woff2?|svg|ttf|eot)$/, use: 'url-loader?name=fonts/[name].[ext]' },       
        { test: /\.(mp3)$/, use:  ['file-loader?name=audio/[name].[ext]'] }
      ]
    },
