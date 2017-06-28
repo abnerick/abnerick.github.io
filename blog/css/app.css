@@ -1,0 +1,26 @@
+body .ab-header {
+  background: #FF8000;
+  margin-bottom: 40px;
+  padding: 30px 0px; }
+  body .ab-header h1 {
+    color: white;
+    font-size: 60px;
+    line-height: 1; }
+  body .ab-header p {
+    color: #F6E3CE;
+    font-size: 24px; }
+  body .ab-header .author {
+    color: white;
+    font-size: 16px; }
+    body .ab-header .author a, body .ab-header .author a:hover, body .ab-header .author a:visited {
+      color: white; }
+
+body .content-author {
+  margin-bottom: 30px; }
+  body .content-author img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; }
+  body .content-author a, body .content-author a:hover, body .content-author a:visited {
+    color: #0085b6;
+    text-decoration: none; }
