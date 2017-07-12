@@ -1,5 +1,5 @@
 # abnerick.github.io
-Sitio Educativo para el aprendizaje del idioma inglés
+Abner Diaz Github Page
 
-# Creditos
-Desarrollado por @abnerick
+# Developer
+ @abnerick
